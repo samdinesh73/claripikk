@@ -6,6 +6,8 @@ import Link from "next/link";
 import sv_1 from "@/assets/img/inner-service/sercive-details/sv-details-1.jpg";
 import sv_2 from "@/assets/img/inner-service/sercive-details/sv-details-2.jpg";
 import sv_3 from "@/assets/img/inner-service/sercive-details/sv-details-3.jpg";
+import ServiceTab from "../mine/ServiceTab";
+import ServiceSix from "./service-six";
 
 export default function ServiceDetailsArea() {
   return (
@@ -22,7 +24,7 @@ export default function ServiceDetailsArea() {
               </h4>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="offset-xl-4 col-xl-5">
               <div className="service-details__banner-text mb-80">
                 <p className="mb-30 tp_title_anim">
@@ -37,10 +39,10 @@ export default function ServiceDetailsArea() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row">
           <div className="col-xl-12">
             <div className="service-details__tab-wrapper text-center mb-120">
@@ -54,6 +56,12 @@ export default function ServiceDetailsArea() {
               </div>
             </div>
           </div>
+        </div>
+      </div> */}
+      <ServiceTab/>
+      <div className="container">
+        <div className="row">
+          
         </div>
       </div>
       <div className="container">

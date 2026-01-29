@@ -6,8 +6,8 @@ body.tp-magic-cursor #magic-cursor {
 #magic-cursor {
 	position: absolute;
 	display: none;
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	pointer-events: none;
 	z-index: 99999;
 	opacity: 0;
@@ -19,12 +19,22 @@ body.tp-magic-cursor #magic-cursor {
 	align-items: center;
 	pointer-events: none;
 	background-color: var(--tp-common-black);
+	background-image: url(/assets/img/mine/cursor-bg.png);
 	border-radius: 50%;
 	justify-content: center;
     mix-blend-mode: difference;
 	color: transparent;
+	width: 10px ;
+	height: 10px ;
 }
-
+#ball-loader {
+	height: 100%;
+	width: 100%;
+	background-image: url(/assets/img/mine/cursor-bg.png);
+	// background-color: aqua;
+	z-index: 999;
+	position: relative;
+}
 
 /* Ball view 
 ============= */

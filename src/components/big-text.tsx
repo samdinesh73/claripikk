@@ -12,7 +12,7 @@ export default function BigText({cls=""}: IProps) {
       <div className="container container-1530">
         <div className="sv-small-text-box d-flex justify-content-between">
           <span>DIGITAL DESIGN EXPERIENCE</span>
-          <span>CREATIVE STUDIO</span>
+          <span>CLARIPIK</span>
         </div>
         <div className="sv-big-text-box">
           <h4 className="sv-big-text tp-char-animation">

@@ -18,7 +18,7 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="https://html.hixstudio.net/videos/liko/liko-4.mp4"
+                  src="/assets/img/home-01/hero/claripik-hero.mp4"
                   type="video/mp4"
                 />
               </video>

@@ -45,6 +45,7 @@ import { awardAnimOne } from "@/utils/award-anim";
 import { instagramAnim } from "@/utils/instagram-anim";
 import WorkFlow from "@/components/mine/workflow";
 import BeforeSlider from "@/components/mine/beforeslider";
+import ComparisonHome from "@/components/mine/comparison";
 // import { hoverBtn } from "@/utils/hover-btn";
 const HomeMain = () => {
   useScrollSmooth();
@@ -109,7 +110,7 @@ const HomeMain = () => {
 
       {/* magic cursor start */}
       <div id="magic-cursor">
-        <div id="ball"></div>
+        <div id="ball"><div id="ball-loader"></div></div>
       </div>
       {/* magic cursor end */}
 
@@ -144,7 +145,8 @@ const HomeMain = () => {
  
              {/* project area */}
              {/* <ProjectTwo/> */}
-             <BeforeSlider/>
+             {/* <BeforeSlider/> */}
+             <ComparisonHome/>
              {/* <ServiceTwo />
               */}
               <WorkFlow/>

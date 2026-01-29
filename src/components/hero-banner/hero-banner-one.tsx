@@ -37,7 +37,7 @@ const HeroBannerOne = () => {
                     </span>
                     <span className="tp-hero-shape-2 d-none d-md-block">
                       <Image
-                        src="/assets/img/home-01/hero/shape.webp"
+                        src="/assets/img/mine/cursor-bg.png"
                         alt="shape"
                         width={80}
                         height={80}

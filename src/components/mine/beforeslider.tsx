@@ -7,7 +7,7 @@ import "./beforeafterslider.css";
 const project_data = [
   {
     id: 1,
-    bimg: "/assets/img/home-02/project/project-1.jpg",
+    bimg: "/assets/img/ba/after1.jpg",
     aimg:"/assets/img/home-02/project/project-2.jpg",
     aclass:"before1",
     subtitle: "service",

@@ -3,38 +3,58 @@ import Image from "next/image";
 import Link from "next/link";
 import { FirstBracket, FirstBracketTwo, RightArrow, SvgBg } from "../svg";
 import icon from '@/assets/img/home-03/service/sv-icon-1.png';
+import s_1 from "@/assets/img/home-01/service/service-icon-1.png";
+import s_2 from "@/assets/img/home-01/service/service-icon-2.png";
+import s_3 from "@/assets/img/home-01/service/service-icon-3.png";
 
 const service_data = [
   {
     id: 1,
-    title: "Product design",
-    desc: "Once we have an idea of your needs, a research and design process begins to gain deep knowledge about the business, users <br> and world context.",
-    category: ["Research", "Ui/ UX", "Prototyping"],
+    title: "Graphic Designing",
+    desc: "Creative design solutions to build strong brand identity and impactful marketing materials. <br> Starting at $3 / hour",
+    category: ["Logo Design", "Branding", "Social Media Design"],
+    icon: s_2,
   },
   {
     id: 2,
-    title: "Web/Mobile",
-    desc: "Once we have an idea of your needs, a research and design process begins to gain deep knowledge about the business, users <br> and world context.",
-    category: ["SEO", "Creative Development", "Varcel"],
+    title: "Image Editing",
+    desc: "Professional image editing services focused on clarity, consistency, and visual quality. <br> Starting at $0.10 / image",
+    category: ["Background Removal", "Product Retouching", "Color Correction"],
+    icon: s_1,
   },
   {
     id: 3,
-    title: "Consulting",
-    desc: "Once we have an idea of your needs, a research and design process begins to gain deep knowledge about the business, users <br> and world context.",
-    category: ["Creative", "Digital strategy", "MVP"],
+    title: "Vector Graphics",
+    desc: "Accurate vector artwork and production-ready files for print and manufacturing. <br> Starting at $3 / hour",
+    category: ["Logo Vectorization", "Vector Conversion", "Print Files"],
+    icon: s_3,
+  },
+  {
+    id: 4,
+    title: "Signage Design",
+    desc: "High-impact signage and large-format designs for indoor and outdoor use. <br> Starting at $5 / hour",
+    category: ["Banner Design", "Vehicle Wraps", "Billboard Design"],
+    icon: s_2,
+  },
+  {
+    id: 5,
+    title: "Web Designing",
+    desc: "Modern, responsive website designs focused on usability and performance. <br> Starting at $150 / project",
+    category: ["Responsive Design", "UI/UX Design", "eCommerce Solutions"],
+    icon: s_1,
   },
 ];
 export default function ServiceFour() {
   
   return (
-    <div className="tp-service-3-area pt-130 pb-130">
+    <div className="tp-service-3-area pt-130 pb-10">
       <div className="container">
         <div className="row">
           <div className="col-xl-9">
             <div className="tp-service-3-title-box mb-60 p-relative">
-              <div className="tp-service-3-icon">
+              {/* <div className="tp-service-3-icon">
                 <Image src={icon} alt="icon" />
-              </div>
+              </div> */}
               <span className="tp-section-subtitle-2 tp_fade_bottom">
                 <span>
                   <FirstBracket />
@@ -47,7 +67,7 @@ export default function ServiceFour() {
                 </span>
               </span>
               <h4 className="tp-section-title-90 tp_text_invert tp_fade_bottom">
-                Creative <br /> development studio
+                Creative development studio
               </h4>
             </div>
           </div>
@@ -58,6 +78,9 @@ export default function ServiceFour() {
             <div className="row align-items-start">
               <div className="col-xl-3 col-lg-3">
                 <div className="tp-service-3-title-box">
+                  {/* <div className="tp-service-4-icon mb-30">
+                                <Image src={item.icon} alt="icon" />
+                              </div> */}
                   <h4 className="tp-service-3-title">
                     <Link href="/service">{item.title}</Link>
                   </h4>
@@ -74,7 +97,7 @@ export default function ServiceFour() {
                 </div>
               </div>
               <div className="col-xl-2 col-lg-2">
-                <div className="tp-service-3-btn-box text-start text-md-end">
+                <div className="tp-service-3-btn-box text-start text-md-end d-none d-lg-block">
                   <Link
                     className="tp-btn-zikzak-sm p-relative"
                     href="/service"

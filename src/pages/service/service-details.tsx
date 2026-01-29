@@ -15,6 +15,8 @@ import BigText from "@/components/big-text";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, titleAnimation } from "@/utils/title-animation";
+import HeaderOne from "@/layouts/headers/header-one";
+import { servicePanel } from "@/utils/panel-animation";
 
 const ServiceDetailsMain = () => {
   useScrollSmooth();
@@ -23,6 +25,7 @@ const ServiceDetailsMain = () => {
     const timer = setTimeout(() => {
       charAnimation();
       titleAnimation();
+      servicePanel();
     }, 100);
     return () => clearTimeout(timer);
   });
@@ -30,7 +33,7 @@ const ServiceDetailsMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderOne />
       {/* header area end */}
 
       <div id="smooth-wrapper">

@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
-import { ServiceItems } from "@/components/service/service-five";
+import ServiceFive, { ServiceItems } from "@/components/service/service-five";
 import ServiceHero from "@/components/service/service-hero";
 import ServiceSix from "@/components/service/service-six";
 import { BrandItems } from "@/components/brand/brand-two";
@@ -20,6 +20,19 @@ import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { charAnimation, fadeAnimation } from "@/utils/title-animation";
 import { servicePanel } from "@/utils/panel-animation";
+import ServiceOne from "@/components/service/service-one";
+import ServiceTwo from "@/components/service/service-two";
+import ServiceThree from "@/components/service/service-three";
+import ServiceFour from "@/components/service/service-four";
+import HeroBannerSix from "@/components/hero-banner/hero-banner-six";
+import HeaderOne from "@/layouts/headers/header-one";
+import VideoTwo from "@/components/video/video-two";
+import { videoAnimTwo } from "@/utils/video-anim";
+import CharSlider from "@/components/mine/charslider";
+import { heroScrollTextAnim } from "@/utils/scroll-marque";
+import StudioPanelFive from "@/components/studio-panels/studio-panel-5";
+import FooterText from "@/components/mine/footertext";
+import FunFactOne from "@/components/fun-fact/fun-fact-one";
 
 const ServiceMain = () => {
   useScrollSmooth();
@@ -28,6 +41,8 @@ const ServiceMain = () => {
     const timer = setTimeout(() => {
       charAnimation();
       fadeAnimation();
+       videoAnimTwo();
+       
       servicePanel();
     }, 100);
     return () => clearTimeout(timer);
@@ -36,18 +51,22 @@ const ServiceMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderOne />
       {/* header area end */}
 
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
             {/* service hero */}
-            <ServiceHero />
+            {/* <ServiceHero /> */}
             {/* service hero */}
-
+{/* <HeroBannerSix /> */}
+<div style={{marginBottom:50,marginTop:100}} className="sm:mt-10" >
+  <VideoTwo />
+</div>
+  
             {/* service area */}
-            <div className="tp-service-5-area sv-service-style pb-70">
+            {/* <div className="tp-service-5-area sv-service-style pb-70">
               <div className="container container-1530">
                 <div className="row">
                   <div className="col-xl-12">
@@ -68,11 +87,14 @@ const ServiceMain = () => {
                   <ServiceItems />
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* service area */}
 
             {/* service area */}
-            <ServiceSix />
+            
+            <ServiceFour/>
+         
+            <FunFactOne/>
             {/* service area */}
 
             {/* brand area */}
@@ -91,6 +113,7 @@ const ServiceMain = () => {
 
             {/* big text */}
             <BigText />
+            
             {/* big text */}
           </main>
 

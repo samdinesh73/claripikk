@@ -8,7 +8,16 @@
   border-radius:12px;
   background:#000;
 }
-
+.comparisonslider{
+  position:relative;
+  width:900px;
+  max-width:100%;
+  height:fit-content;
+  margin:auto;
+  overflow:hidden;
+  border-radius:12px;
+  background:#000;
+}
 /* Both images identical positioning */
 .slider img{
   position:absolute;
@@ -30,11 +39,13 @@
   width:50%;
   overflow:hidden;
   z-index:2;
-  
+  background-repeat: no-repeat;
+  /* background-position: center; */
+    background-size: cover;
 }
 
 .before1{
-background-image: url("https://picsum.photos/id/1016/1200/800");
+background-image: url(/assets/img/ba/before1.jpg);
 }
 .before2{
 background-image: url("https://picsum.photos/id/1016/1200/800");
@@ -112,3 +123,28 @@ background-image: url("https://picsum.photos/id/1016/1200/800");
 
 .label.before{left:10px;}
 .label.after{right:10px;}
+
+@media (max-width:600px){
+
+   .slider{
+  position:relative;
+  width:385px;
+  max-width:100%;
+  height:250px;
+  margin:auto;
+  overflow:hidden;
+  border-radius:12px;
+  background:#000;
+}
+   .comparisonslider{
+  position:relative;
+  width:387px;
+  max-width:100%;
+ 
+  margin:auto;
+  overflow:hidden;
+  border-radius:12px;
+  background:#000;
+}
+  
+}

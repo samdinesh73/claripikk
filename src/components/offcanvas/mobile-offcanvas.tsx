@@ -40,8 +40,8 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
           </div>
           <div className="tp-offcanvas-main">
             <div className="tp-offcanvas-content">
-              <h3 className="tp-offcanvas-title">Hello There!</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <h3 className="tp-offcanvas-title">Welcome to Claripik</h3>
+              <p>Professional design and digital solutions. From graphic design to image editing, vector graphics, signage design, and web development. </p>
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
               <MobileMenus/>
@@ -64,13 +64,13 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
 
               <ul>
                 <li>
-                  <a href="tel:1245654">+ 4 20 7700 1007</a>
+                  <a href="tel:+1234567890">+1 (234) 567-890</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@diego.com">hello@diego.com</a>
+                  <a href="mailto:hello@claripik.com">hello@claripik.com</a>
                 </li>
                 <li>
-                  <a href="#">Avenue de Roma 158b, Lisboa</a>
+                  <a href="#">www.claripik.com</a>
                 </li>
               </ul>
             </div>

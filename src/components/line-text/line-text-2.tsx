@@ -3,12 +3,12 @@ import Marquee from "react-fast-marquee";
 
 // marquee text
 const marquee_text = [
-  "our work",
-  "our work",
-  "our work",
-  "our work",
-  "our work",
-  "our work",
+  "CLARIPIK",
+  "CLARIPIK",
+  "CLARIPIK",
+  "CLARIPIK",
+  "CLARIPIK",
+  "CLARIPIK",
 ];
 
 export default function LineTextTwo() {
