@@ -15,30 +15,35 @@ const service_data = [
     title: "Image Editing",
     desc: "Professional image editing that delivers clean, consistent, high-quality visuals.",
     icon: s_1,
+    link:"/service/image-editing",
   },
   {
     id: 2,
     title: "Graphic Design",
     desc: "Creative design solutions that strengthen brand identity and visual communication.",
     icon: s_2,
+    link:"/service/graphic-design",
   },
   {
     id: 3,
     title: "Vector Graphics",
     desc: "Precision vector artwork prepared for print, production, and manufacturing.",
     icon: s_3,
+    link:"/service/vector-graphics",
   },
   {
     id: 4,
     title: "Signage Design",
     desc: "Impactful signage and large-format designs for indoor and outdoor branding.",
     icon: s_4,
+    link:"/service/signage-design",
   },
   {
     id: 5,
     title: "Web Design",
     desc: "Modern, responsive websites built for performance and user experience.",
     icon: s_1,
+    link:"/service/web-design",
   },
 ];
 
@@ -81,7 +86,7 @@ const ServiceOne = () => {
                     <h4 className="tp-service-title-sm order-0">
                       <Link 
                       // href="/service-details"
-                      href="#"
+                      href={s.link}
                       >{s.title}</Link>
                     </h4>
                     <p className="order-1">{s.desc}</p>

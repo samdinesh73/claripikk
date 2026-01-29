@@ -31,61 +31,44 @@ const service_data = [
   {
     id: 1,
     img: ser_img_1,
-    subtitle: "Graphic Design",
-    title: "Branding & Marketing Design",
-    text: "Strategic brand identity and marketing design solutions to establish strong visual presence and capture audience attention.",
+    subtitle: "Web Design",
+    title: "Website Design",
+    text: "Modern, responsive website designs focused on usability and performance that engage users and drive conversions.",
     lists: [
-      "Logo Design & Brand Identity",
-      "Brand Guidelines",
-      "Company Profiles",
-      "Corporate Brochures",
-      "Pitch Decks & Presentations",
+      "Responsive Website Design",
+      "Business Websites",
+      "Corporate Websites",
+      "Portfolio Websites",
     ],
     after:"/assets/img/ba/after1.png",
         before:"/assets/img/ba/before1.png",
   },
   {
     id: 2,
-    img: ser_img_2,
-    subtitle: "Graphic Design",
-    title: "Print & Marketing Collateral",
-    text: "Comprehensive print and marketing materials designed to elevate your brand presence across all physical touchpoints.",
+    img: ser_img_1,
+    subtitle: "Web Design",
+    title: "eCommerce Solutions",
+    text: "Comprehensive eCommerce website design and development to maximize sales and customer experience.",
     lists: [
-      "Brochures, Flyers & Posters",
-      "Business Cards & Stationery",
-      "Catalogs & Lookbooks",
-      "Menus (Restaurants & Cafes)",
-      "Certificates & Reports",
+      "eCommerce Store Design",
+      "Shopify Store Design",
+      "Product Page UI Design",
+      "Conversion-Focused Layouts",
     ],
     after:"/assets/img/ba/after1.png",
         before:"/assets/img/ba/before1.png",
   },
   {
     id: 3,
-    img: ser_img_3,
-    subtitle: "Graphic Design",
-    title: "Digital & Social Media Design",
-    text: "Engaging digital and social media designs crafted to maximize reach and drive conversions across all platforms.",
+    img: ser_img_1,
+    subtitle: "Web Design",
+    title: "UI / UX Design",
+    text: "User-centered interface and experience design that makes your website intuitive and delightful to use.",
     lists: [
-      "Social Media Creatives",
-      "Ad Banners & Campaign Creatives",
-      "Email Marketing Creatives",
-      "Promotional Graphics",
-      "Google & Meta Ad Creatives",
-    ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
-  },
-  {
-    id: 4,
-    img: ser_img_4,
-    subtitle: "Graphic Design",
-    title: "Packaging & Product Design",
-    text: "Premium packaging and product design solutions that enhance shelf appeal and create memorable brand experiences.",
-    lists: [
-      "Product Packaging Design",
-      "Labels & Box Design",
-      "Retail Packaging Artwork",
+      "Landing Page Design",
+      "User Interface (UI) Design",
+      "User Experience (UX) Design",
+      "Website Redesign & Revamp",
     ],
     after:"/assets/img/ba/after1.png",
         before:"/assets/img/ba/before1.png",
@@ -101,15 +84,15 @@ export default function WebAfterBefore() {
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
-                  {/* <Image
+                  <Image
                     src={item.img}
                     alt="service-img"
                     style={{ height: "auto" }}
-                  /> */}
-                  <div style={{height:"auto"}}>
+                  />
+                  {/* <div style={{height:"auto"}}>
                         <ReactCompareImage  leftImage={item.before} rightImage={item.after} handleSize={60} />
                   </div>
-                 
+                  */}
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6">

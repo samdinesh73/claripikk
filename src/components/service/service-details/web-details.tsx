@@ -23,10 +23,10 @@ export default function WebDetailsArea() {
                 Creative Services
               </span>
               <h4 className="sv-hero-title tp-char-animation">
-                Graphic Designing
+                Web Designing
               </h4>
               <p className="service-details__price tp-char-animation">
-                Starting at $3 / hour
+                Starting at $150 / project
               </p>
             </div>
           </div>
@@ -48,22 +48,22 @@ export default function WebDetailsArea() {
           </div> */}
         </div>
       </div>
-      {/* <div className="container-fluid">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-xl-12">
             <div className="service-details__tab-wrapper text-center mb-120">
               <div className="service-details__tab-thumb">
-                <Image
+                {/* <Image
                   data-speed="0.4"
                   src={sv_1}
                   alt="service-img"
                   style={{ height: "auto" }}
-                />
+                /> */}
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="mb-30">
  <WebAfterBefore />
       </div>
@@ -79,28 +79,29 @@ export default function WebDetailsArea() {
             <div className="service-details__left-wrap">
               <div className="service-details__left-text pb-20">
                 <p className="text-1 tp_title_anim">
-                  Creative design solutions to build strong brand identity and impactful marketing materials.
+                  Modern, responsive website designs focused on usability and performance that engage users and drive results.
                 </p>
                 <p>
-                  We deliver comprehensive graphic design services that encompass everything from logo creation to packaging design, ensuring your brand stands out across all platforms.
+                  We deliver comprehensive web design solutions including responsive websites, eCommerce stores, and user-centered UI/UX design tailored to your business goals.
                 </p>
               </div>
               <div className="service-details__fea-list">
                 <ul>
-                  <li>Branding & Marketing Design</li>
-                  <li>Logo Design & Brand Identity</li>
-                  <li>Brand Guidelines</li>
-                  <li>Company Profiles & Corporate Brochures</li>
-                  <li>Pitch Decks & Presentations</li>
-                  <li>Print & Marketing Collateral</li>
-                  <li>Brochures, Flyers & Posters</li>
-                  <li>Business Cards & Stationery</li>
-                  <li>Catalogs & Lookbooks</li>
-                  <li>Digital & Social Media Design</li>
-                  <li>Social Media Creatives</li>
-                  <li>Ad Banners & Campaign Creatives</li>
-                  <li>Packaging & Product Design</li>
-                  <li>Product Packaging, Labels & Box Design</li>
+                  <li>Website Design</li>
+                  <li>Responsive Website Design</li>
+                  <li>Business Websites</li>
+                  <li>Corporate Websites</li>
+                  <li>Portfolio Websites</li>
+                  <li>eCommerce Solutions</li>
+                  <li>eCommerce Store Design</li>
+                  <li>Shopify Store Design</li>
+                  <li>Product Page UI Design</li>
+                  <li>Conversion-Focused Layouts</li>
+                  <li>UI / UX Design</li>
+                  <li>Landing Page Design</li>
+                  <li>User Interface (UI) Design</li>
+                  <li>User Experience (UX) Design</li>
+                  <li>Website Redesign & Revamp</li>
                 </ul>
               </div>
               <div className="service-details__sm-thumb-wrap mb-60">
@@ -127,7 +128,7 @@ export default function WebDetailsArea() {
               </div>
               <div className="service-details__left-text">
                 <p>
-                  From branding and marketing design to packaging and social media creatives, we provide end-to-end graphic design solutions tailored to your business needs and budget requirements.
+                  Whether you need a responsive business website, a high-converting eCommerce store, or a complete redesign, we create modern websites that deliver results and provide exceptional user experiences.
                 </p>
               </div>
             </div>
@@ -138,20 +139,20 @@ export default function WebDetailsArea() {
                 <span>Full list of services</span>
               </div>
               <div className="service-details__right-category">
-                <a href="#">Branding</a>
+                <a href="#">Responsive Design</a>
                 <a className="active" href="#">
-                  Logo Design
+                  Website Design
                 </a>
-                <a href="#">Print Design</a>
-                <a href="#">Social Media</a>
-                <a href="#">Packaging</a>
+                <a href="#">eCommerce</a>
+                <a href="#">Landing Pages</a>
+                <a href="#">UI/UX Design</a>
               </div>
               <div className="service-details__right-text-box">
                 <h4>
-                  Graphic <br /> Designing
+                  Web <br /> Designing
                 </h4>
                 <p className="mb-20">
-                  Professional graphic design starting at $3 per hour. We create compelling visual solutions that strengthen your brand identity and drive engagement.
+                  Professional web design starting at $150 per project. We create modern, responsive websites that engage users and drive business results.
                 </p>
                 <Link
                   className="tp-btn-white background-black"
