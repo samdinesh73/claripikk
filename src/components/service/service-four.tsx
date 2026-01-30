@@ -14,6 +14,7 @@ const service_data = [
     desc: "Creative design solutions to build strong brand identity and impactful marketing materials. <br> Starting at $3 / hour",
     category: ["Logo Design", "Branding", "Social Media Design"],
     icon: s_2,
+    link:"/service/graphic-design",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const service_data = [
     desc: "Professional image editing services focused on clarity, consistency, and visual quality. <br> Starting at $0.10 / image",
     category: ["Background Removal", "Product Retouching", "Color Correction"],
     icon: s_1,
+    link:"/service/image-editing",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const service_data = [
     desc: "Accurate vector artwork and production-ready files for print and manufacturing. <br> Starting at $3 / hour",
     category: ["Logo Vectorization", "Vector Conversion", "Print Files"],
     icon: s_3,
+    link:"/service/vector-graphics",
   },
   {
     id: 4,
@@ -35,6 +38,7 @@ const service_data = [
     desc: "High-impact signage and large-format designs for indoor and outdoor use. <br> Starting at $5 / hour",
     category: ["Banner Design", "Vehicle Wraps", "Billboard Design"],
     icon: s_2,
+    link:"/service/signage-design",
   },
   {
     id: 5,
@@ -42,6 +46,7 @@ const service_data = [
     desc: "Modern, responsive website designs focused on usability and performance. <br> Starting at $150 / project",
     category: ["Responsive Design", "UI/UX Design", "eCommerce Solutions"],
     icon: s_1,
+    link:"/service/web-designing",
   },
 ];
 export default function ServiceFour() {
@@ -82,7 +87,7 @@ export default function ServiceFour() {
                                 <Image src={item.icon} alt="icon" />
                               </div> */}
                   <h4 className="tp-service-3-title">
-                    <Link href="/service">{item.title}</Link>
+                    <Link href={item.link}>{item.title}</Link>
                   </h4>
                 </div>
               </div>
@@ -100,7 +105,7 @@ export default function ServiceFour() {
                 <div className="tp-service-3-btn-box text-start text-md-end d-none d-lg-block">
                   <Link
                     className="tp-btn-zikzak-sm p-relative"
-                    href="/service"
+                    href={item.link}
                   >
                     <span className="zikzak-content">
                       See <br /> Details

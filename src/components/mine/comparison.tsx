@@ -8,32 +8,32 @@ import ReactCompareImage from "react-compare-image";
 const project_data = [
   {
     id: 1,
-    bimg: "/assets/img/ba/after1.jpg",
-    aimg:"/assets/img/home-02/project/project-2.jpg",
+    bimg: "/assets/img/ba/before2.png",
+    aimg:"/assets/img/ba/after2.jpeg",
     aclass:"before1",
     subtitle: "service",
     title: "Brand 1",
   },
   {
     id: 2,
-    bimg: "/assets/img/home-02/project/project-2.jpg",
-    aimg: "/assets/img/home-02/project/project-3.jpg",
+    bimg: "/assets/img/ba/before3.jpeg",
+    aimg: "/assets/img/ba/after3.png",
     aclass:"before2",
     subtitle: "service",
     title: "Brand 2",
   },
   {
     id: 3,
-    bimg: "/assets/img/home-02/project/project-3.jpg",
-    aimg: "/assets/img/home-02/project/project-4.jpg",
+    bimg: "/assets/img/ba/before4.png",
+    aimg: "/assets/img/ba/after4.jpeg",
     aclass:"before3",
     subtitle: "service",
     title: "Brand 3",
   },
   {
     id: 4,
-    bimg: "/assets/img/home-02/project/project-4.jpg",
-    aimg: "/assets/img/home-02/project/project-5.jpg",
+    bimg: "/assets/img/ba/before5.png",
+    aimg: "/assets/img/ba/after5.jpeg",
     aclass:"before4",
     subtitle: "service",
     title: "Brand 4",
@@ -81,14 +81,14 @@ export default function BeforeSlider() {
                  
                 >
                   {/* After (bottom) */}
-                  <ReactCompareImage  leftImage="/assets/img/ba/before2.png" rightImage="/assets/img/ba/after2.jpeg" handleSize={60} />
-                  
+                  <ReactCompareImage  leftImage={item.bimg} rightImage={item.aimg} handleSize={60} />
+                 
                   {/* Before (top clipped) */}
                   
                   
                 </div>
                   
-                 
+                  <h3 className="text-center mt-20 text-4xl">{item.title}</h3>
 
                
               </div>

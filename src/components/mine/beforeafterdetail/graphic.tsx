@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
-import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
+import ser_img_1 from "@/assets/img/designs/graphic.jpg";
+import ser_img_2 from "@/assets/img/designs/graphic2.jpeg";
 import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
 
@@ -101,14 +101,14 @@ export default function GraphicAfterBefore() {
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
-                  {/* <Image
+                  <Image
                     src={item.img}
                     alt="service-img"
                     style={{ height: "auto" }}
-                  /> */}
-                  <div style={{height:"auto"}}>
+                  />
+                  {/* <div style={{height:"auto"}}>
                         <ReactCompareImage  leftImage={item.before} rightImage={item.after} handleSize={60} />
-                  </div>
+                  </div> */}
                  
                 </div>
               </div>
