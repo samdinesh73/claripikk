@@ -45,8 +45,8 @@ const service_data = [
       "Image Cropping & Resizing",
       "Product Image Optimization for Marketplaces",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Image-Editing/Product-Commercial/7.png",
+        before:"/assets/Clarpikk/Image-Editing/Product-Commercial/6.png",
   },
   {
     id: 2,
@@ -59,8 +59,8 @@ const service_data = [
       "Fashion & Apparel Image Editing",
       "Real Estate Image Enhancement",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Image-Editing/Industry-Specific/8.png",
+        before:"/assets/Clarpikk/Image-Editing/Industry-Specific/9.png",
   },
 ];
 

@@ -38,14 +38,14 @@ const project_data = [
     subtitle: "service",
     title: "Brand 4",
   },
-  {
-    id: 5,
-    bimg: "/assets/img/home-02/project/project-5.jpg",
-    aimg: "/assets/img/home-02/project/project-6.jpg",
-    aclass:"before5",
-    subtitle: "service",
-    title: "Brand 5",
-  },
+  // {
+  //   id: 5,
+  //   bimg: "/assets/img/home-02/project/project-5.jpg",
+  //   aimg: "/assets/img/home-02/project/project-6.jpg",
+  //   aclass:"before5",
+  //   subtitle: "service",
+  //   title: "Brand 5",
+  // },
 //   {
 //     id: 6,
 //     bimg: "/assets/img/home-02/project/project-6.jpg",

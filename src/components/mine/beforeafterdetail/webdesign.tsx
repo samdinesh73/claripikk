@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
-import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
-import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
-import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
+import ser_img_1 from "@/assets/Clarpikk/Web-Design/eCOMMERCE/Copy of Copy of 20.png";
+import ser_img_2 from "@/assets/Clarpikk/Web-Design/eCOMMERCE/Copy of Copy of 21.png";
+import ser_img_3 from "@/assets/Clarpikk/Web-Design/eCOMMERCE/Copy of Copy of 22.png";
+import ser_img_4 from "@/assets/Clarpikk/Web-Design/eCOMMERCE/Copy of Copy of 23.png";
 
 import Link from "next/link";
 import ReactCompareImage from "react-compare-image";
@@ -40,12 +40,12 @@ const service_data = [
       "Corporate Websites",
       "Portfolio Websites",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Web-Design/eCOMMERCE/Copy of Copy of 20.png",
+        before:"/assets/Clarpikk/Web-Design/eCOMMERCE/Copy of Copy of 20.png",
   },
   {
     id: 2,
-    img: ser_img_1,
+    img: ser_img_2,
     subtitle: "Web Design",
     title: "eCommerce Solutions",
     text: "Comprehensive eCommerce website design and development to maximize sales and customer experience.",
@@ -60,7 +60,7 @@ const service_data = [
   },
   {
     id: 3,
-    img: ser_img_1,
+    img: ser_img_3,
     subtitle: "Web Design",
     title: "UI / UX Design",
     text: "User-centered interface and experience design that makes your website intuitive and delightful to use.",

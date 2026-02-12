@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube } from "../svg";
+import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube ,Whatsapp } from "../svg";
 
 // images
 import logo from "@/assets/img/logo/claripik.png";
@@ -40,8 +40,8 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
           </div>
           <div className="tp-offcanvas-main">
             <div className="tp-offcanvas-content">
-              <h3 className="tp-offcanvas-title">Hello There!</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+              <h3 className="tp-offcanvas-title">Welcome to Claripik!</h3>
+              <p>Creative design and innovative solutions for your brand. We craft exceptional digital experiences that elevate your business.</p>
             </div>
             <div className="tp-main-menu-mobile d-xl-none">
               <MobileMenus/>
@@ -64,13 +64,13 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
 
               <ul>
                 <li>
-                  <a href="tel:1245654">+ 4 20 7700 1007</a>
+                  <a href="tel:+15551234567">+1 (555) 123-4567</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@diego.com">hello@diego.com</a>
+                  <a href="mailto:hello@claripik.com">hello@claripik.com</a>
                 </li>
                 <li>
-                  <a href="#">Avenue de Roma 158b, Lisboa</a>
+                  <a href="#">Design Studios, Creative Hub</a>
                 </li>
               </ul>
             </div>
@@ -84,7 +84,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
                   <a href="#"><Dribble /></a>
                 </li>
                 <li>
-                  <a href="#"> <Behance /></a>
+                  <a href="#"> <Whatsapp /></a>
                 </li>
                 <li>
                   <a href="#"><Youtube /></a>

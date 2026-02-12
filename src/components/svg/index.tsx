@@ -40,8 +40,10 @@ import Address from "./address";
 import Shipping from "./shipping";
 import Close,{CloseTwo,CloseThree} from "./close";
 import Dots from "./dots";
+import Whatsapp from "./whatsapp";
 
 export {
+  Whatsapp,
   PrevIcon,
   NextIcon,
   Cart,

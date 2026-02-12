@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
-import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
+import ser_img_1 from "@/assets/Clarpikk/Signage-Design/Indoor-Outdoor/indoor.png";
+import ser_img_2 from "@/assets/Clarpikk/Signage-Design/Large-format/15.png";
 import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
 
@@ -25,8 +25,8 @@ const service_data = [
       "Window Graphics",
       "Wayfinding Signage",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Signage-Design/Indoor-Outdoor/indoor.png",
+        before:"/assets/Clarpikk/Signage-Design/Indoor-Outdoor/indoor.png",
   },
   {
     id: 2,
@@ -42,8 +42,8 @@ const service_data = [
       "Standees & Backdrops",
       "Event Signage & Branding",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Signage-Design/Large-format/15.png",
+        before:"/assets/Clarpikk/Signage-Design/Large-format/15.png",
   },
 ];
 
@@ -56,14 +56,14 @@ export default function SignageAfterBefore() {
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
-                  {/* <Image
+                  <Image
                     src={item.img}
                     alt="service-img"
                     style={{ height: "auto" }}
-                  /> */}
-                  <div style={{height:"auto"}}>
+                  />
+                  {/* <div style={{height:"auto"}}>
                         <ReactCompareImage  leftImage={item.before} rightImage={item.after} handleSize={60} />
-                  </div>
+                  </div> */}
                  
                 </div>
               </div>

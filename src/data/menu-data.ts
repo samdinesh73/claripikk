@@ -152,7 +152,7 @@ const menu_data:IMenuDT[] = [
       { title: 'Image Editing', link: '/service/image-editing', img: '/assets/img/ba/after1.png' },
       { title: 'Vector Graphics', link: '/service/vector-graphics', img: '/assets/img/ba/after1.png' },
       { title: 'Signage Design', link: '/service/signage-design', img: '/assets/img/ba/after1.png' },
-      { title: 'Web Design', link: '/service/web-designing', img: '/assets/img/ba/after1.png' },
+      { title: 'Web Design', link: '/service/web-design', img: '/assets/img/ba/after1.png' },
       { title: 'More', link: '/service/', img: '/assets/img/ba/after1.png' },
       
     ]
@@ -296,7 +296,7 @@ export const mobile_menu_data:{
       { title: 'Image Editing', link: '/service/image-editing' },
       { title: 'Vector Graphics', link: '/service/vector-graphics'},
       { title: 'Signage Design', link: '/service/signage-design' },
-      { title: 'Web Design', link: '/service/web-designing' },
+      { title: 'Web Design', link: '/service/web-design' },
     ]
   },
   // {

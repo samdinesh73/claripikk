@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/designs/graphic.jpg";
-import ser_img_2 from "@/assets/img/designs/graphic2.jpeg";
-import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
-import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
+import ser_img_1 from "@/assets/Clarpikk/Graphic-Design/Brand-Marketing/1.png";
+import ser_img_2 from "@/assets/Clarpikk/Graphic-Design/Print-MARKETING/scenery-designers-work.jpg";
+import ser_img_3 from "@/assets/Clarpikk/Graphic-Design/Digital-Social/17.png";
+import ser_img_4 from "@/assets/Clarpikk/Graphic-Design/Packaging-Product/4.png";
 
 import Link from "next/link";
 import ReactCompareImage from "react-compare-image";

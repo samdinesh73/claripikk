@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
-import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
-import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
+import ser_img_1 from "@/assets/Clarpikk/Vector-Graphics/Vector/tiger.png";
+import ser_img_2 from "@/assets/Clarpikk/Vector-Graphics/Decoration/13.png";
+import ser_img_3 from "@/assets/Clarpikk/Vector-Graphics/Prepress/prepress.png";
 import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
 
 import Link from "next/link";
@@ -24,8 +24,8 @@ const service_data = [
       "Artwork Cleanup & Line Art",
       "Print-Ready Vector Files",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Vector-Graphics/Vector/tiger.png",
+        before:"/assets/Clarpikk/Vector-Graphics/Vector/tiger.png",
   },
   {
     id: 2,
@@ -40,8 +40,8 @@ const service_data = [
       "Promotional Product Artwork",
       "Hard Goods Artwork",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Vector-Graphics/Decoration/13.png",
+        before:"/assets/Clarpikk/Vector-Graphics/Decoration/13.png",
   },
   {
     id: 3,
@@ -55,8 +55,8 @@ const service_data = [
       "Print-Ready File Setup",
       "Proof Creation & Templates",
     ],
-    after:"/assets/img/ba/after1.png",
-        before:"/assets/img/ba/before1.png",
+    after:"/assets/Clarpikk/Vector-Graphics/Prepress/prepress.png",
+        before:"/assets/Clarpikk/Vector-Graphics/Prepress/prepress.png",
   },
 ];
 
@@ -69,14 +69,14 @@ export default function VectorAfterBefore() {
             <div className="row g-0">
               <div className="col-xl-6 col-lg-6">
                 <div className="sv-service-thumb">
-                  {/* <Image
+                  <Image
                     src={item.img}
                     alt="service-img"
                     style={{ height: "auto" }}
-                  /> */}
-                  <div style={{height:"auto"}}>
+                  />
+                  {/* <div style={{height:"auto"}}>
                         <ReactCompareImage  leftImage={item.before} rightImage={item.after} handleSize={60} />
-                  </div>
+                  </div> */}
                  
                 </div>
               </div>
