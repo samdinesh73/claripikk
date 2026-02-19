@@ -148,12 +148,12 @@ const menu_data:IMenuDT[] = [
     title: 'Services',
     link: '/service',
     home_menus: [
-      { title: 'Graphic Designing', link: '/service/graphic-design', img: '/assets/img/ba/after1.png' },
-      { title: 'Image Editing', link: '/service/image-editing', img: '/assets/img/ba/after1.png' },
-      { title: 'Vector Graphics', link: '/service/vector-graphics', img: '/assets/img/ba/after1.png' },
-      { title: 'Signage Design', link: '/service/signage-design', img: '/assets/img/ba/after1.png' },
-      { title: 'Web Design', link: '/service/web-design', img: '/assets/img/ba/after1.png' },
-      { title: 'More', link: '/service/', img: '/assets/img/ba/after1.png' },
+      { title: 'Graphic Designing', link: '/service/graphic-design', img: '/assets/claripik/Graphic-design.png' },
+      { title: 'Image Editing', link: '/service/image-editing', img: '/assets/claripik/image-editing.png' },
+      { title: 'Vector Graphics', link: '/service/vector-graphics', img: '/assets/claripik/vector-image.png' },
+      { title: 'Signage Design', link: '/service/signage-design', img: '/assets/claripik/signage-design.png' },
+      { title: 'Web Design', link: '/service/web-design', img: '/assets/claripik/website.png' },
+      { title: 'More', link: '/service/', img: '/assets/claripik/more.png' },
       
     ]
   },
