@@ -18,7 +18,7 @@ import product_10 from '@/assets/img/inner-shop/product/product-12.jpg';
 const product_data:IProductDT[] = [
   {
     id: 1,
-    category: 'Tennis',
+    category: 'Tenniss',
     title:'Black Tennis Shoe',
     price: 225,
     img: product_1,

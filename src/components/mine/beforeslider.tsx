@@ -143,7 +143,7 @@ export default function BeforeSlider() {
                   onTouchMove={(e) => handleTouchMove(e, item.id)}
                 >
                   {/* After (bottom) */}
-                  <img src={item.bimg} alt="after" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                  <Image src={item.bimg} alt="after" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                   
                   {/* Before (top clipped) */}
                   <div 

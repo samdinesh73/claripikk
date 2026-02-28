@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: "Claripik- Blog Details page",
 };
 
+export async function generateStaticParams() {
+  return blog_data.map((b) => ({ id: String(b.id) }));
+}
+
 export default function BlogDetailsPage({params}:{params:{id:string}}) {
   const blog = [...blog_data].find((blog) => blog.id === Number(params.id));
   return blog ? (

@@ -4,10 +4,14 @@ import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube ,Whatsapp } from "../
 
 // images
 import logo from "@/assets/img/logo/claripik.png";
-import gallery_1 from "@/assets/img/menu/offcanvas/offcanvas-1.jpg";
-import gallery_2 from "@/assets/img/menu/offcanvas/offcanvas-2.jpg";
-import gallery_3 from "@/assets/img/menu/offcanvas/offcanvas-3.jpg";
-import gallery_4 from "@/assets/img/menu/offcanvas/offcanvas-4.jpg";
+// import gallery_1 from "@/assets/img/menu/offcanvas/offcanvas-1.jpg";
+// import gallery_2 from "@/assets/img/menu/offcanvas/offcanvas-2.jpg";
+// import gallery_3 from "@/assets/img/menu/offcanvas/offcanvas-3.jpg";
+// import gallery_4 from "@/assets/img/menu/offcanvas/offcanvas-4.jpg";
+import gallery_1 from "@/assets/claripik/signage-design.png";
+import gallery_2 from "@/assets/claripik/printing-marketing.jpg";
+import gallery_3 from "@/assets/claripik/branding-marketing.png";
+import gallery_4 from "@/assets/claripik/image-editing.png";
 import MobileMenus from "./mobile-menus";
 
 const gallery_images = [gallery_1, gallery_2, gallery_3, gallery_4];
@@ -26,7 +30,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
           <div className="tp-offcanvas-top d-flex align-items-center justify-content-between">
             <div className="tp-offcanvas-logo">
               <a href="#">
-                <Image src={logo} alt="logo" />
+                <Image className="customoffdesk" src={logo} alt="logo" />
               </a>
             </div>
             <div className="tp-offcanvas-close">
@@ -52,7 +56,7 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
                   <div className="col-md-3 col-3" key={i}>
                     <div className="tp-offcanvas-gallery-img fix">
                       <a href="#">
-                        <Image src={item} alt="gallery-img" />
+                        <Image className="customoffdesk" src={item} alt="gallery-img" />
                       </a>
                     </div>
                   </div>
