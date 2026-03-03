@@ -241,7 +241,7 @@
             font-size: 57px;
         }
         & span{
-            margin-left: 160px;
+            // margin-left: 160px;
             @media #{$md}{
                 margin-left: 60px;
             }
@@ -251,7 +251,7 @@
         }
     }
     &-content{
-        margin-left: 160px;
+        // margin-left: 160px;
         @media #{$xs}{
             margin-left: 0;
         }

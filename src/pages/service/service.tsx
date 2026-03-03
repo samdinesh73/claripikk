@@ -94,7 +94,7 @@ const ServiceMain = () => {
             
             <ServiceFour/>
          
-            <FunFactOne/>
+            {/* <FunFactOne/> */}
             {/* service area */}
 
             {/* brand area */}

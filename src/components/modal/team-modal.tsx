@@ -13,19 +13,20 @@ type IProps = {
 export default function TeamModal({showModal,setShowModal,teamItem}: IProps) {
   const handleClose = () => setShowModal(false);
   return (
-    <Modal
-      show={showModal}
-      onHide={handleClose}
-      style={{
-        backgroundImage: `url(/assets/img/home-01/team/team-details-bg.png)`,
-      }}
-    >
-      <Modal.Header closeButton>
-        <button type="button" className="btn-close"></button>
-      </Modal.Header>
-      <Modal.Body>
-        <TeamDetailsArea item={teamItem} />
-      </Modal.Body>
-    </Modal>
+    // <Modal
+    //   show={showModal}
+    //   onHide={handleClose}
+    //   style={{
+    //     backgroundImage: `url(/assets/img/home-01/team/team-details-bg.png)`,
+    //   }}
+    // >
+    //   <Modal.Header closeButton>
+    //     <button type="button" className="btn-close"></button>
+    //   </Modal.Header>
+    //   <Modal.Body>
+    //     <TeamDetailsArea item={teamItem} />
+    //   </Modal.Body>
+    // </Modal>
+    <></>
   );
 }

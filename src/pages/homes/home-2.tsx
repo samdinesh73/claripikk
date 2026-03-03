@@ -25,6 +25,7 @@ import { panelOneAnimation } from "@/utils/panel-animation";
 import { awardAnimOne } from "@/utils/award-anim";
 import { instagramAnim } from "@/utils/instagram-anim";
 import { hoverBtn } from "@/utils/hover-btn";
+import InstagramTwo from "@/components/instagram/instagram-two";
 
 const HomeTwoMain = () => {
   useScrollSmooth();
@@ -95,6 +96,7 @@ const HomeTwoMain = () => {
 
             {/* instagram area */}
             <InstagramArea/>
+            <InstagramTwo/>
             {/* instagram area */}
           </main>
 

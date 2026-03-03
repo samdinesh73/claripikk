@@ -52,7 +52,7 @@ function panelOneAnimation() {
           markers: false,
           start: "bottom 115%",
           end: "bottom -100%",
-          toggleClass: { targets: listItem[index], className: "addclass" },
+          toggleClass: { targets: listItem[index], className: "addclas" },
         });
       });
     }

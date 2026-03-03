@@ -197,6 +197,14 @@ const menu_data:IMenuDT[] = [
     id: 3,
     title: 'Portfolio',
     link: '/portfolio',
+    dropdown_menus: [
+      { title: 'Graphic Design', link: '/' },
+      { title: 'Video Editing', link: '/' },
+      { title: 'Vector Graphics', link: '/' },
+      { title: 'Signange Design', link: '/' },
+      { title: 'Web Designing', link: '/' },
+      
+    ],
     // portfolio_mega_menus: {
     //   first: {
     //     title: 'PORTFOLIO LIST',
@@ -270,6 +278,15 @@ const menu_data:IMenuDT[] = [
   },
   {
     id: 5,
+    title: 'About Us',
+    link: '/about-us',
+    // dropdown_menus:[
+    //   { title: 'Contact', link: '/contact' },
+    //   { title: 'Get IN touch', link: '/contact-2' },
+    // ]
+  },
+  {
+    id: 6,
     title: 'Contact',
     link: '/',
     // dropdown_menus:[

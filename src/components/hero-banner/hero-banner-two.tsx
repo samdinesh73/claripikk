@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Leaf } from "../svg";
-import hero_bg from "@/assets/img/home-02/hero/hero-bg-1.jpg";
+import hero_bg from "@/assets/claripik/aboutus_banner.webp";
 
 const HeroBannerTwo = () => {
   return (
@@ -19,16 +19,17 @@ const HeroBannerTwo = () => {
                 <div className="tp-hero-2-content-wrap p-relative">
                   <div className="tp-hero-2-title-box">
                     <h2 className="tp-hero-2-title text-1 z-index-5">
-                      Fashion
+                      Design
                     </h2>
                     <h2 className="tp-hero-2-title text-2">
-                      <span>& Branding</span>
+                      <span>& Solutions</span>
                     </h2>
                   </div>
                   <div className="tp-hero-2-content">
                     <p>
-                      Bringing Your Fashion {"Brand's"} Unique Identity to Life
-                      Through Strategic Marketing and Advertising.
+                     We don’t just edit images or create designs — we build complete visual solutions for businesses 
+                     across different industries. From image editing to web design,
+                      our goal is to help brands look professional, clear, and modern in every platform.
                     </p>
                     <Link
                       className="tp-btn-white"

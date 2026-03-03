@@ -7,7 +7,7 @@ const VideOne = () => {
     <div className="tp-hero-bottom-img-wrap">
       <div className="tp-hero-bottom-img">
         <video loop={true} muted={true} autoPlay={true} playsInline={true}>
-          <source src="/assets/img/home-01/hero/claripik-hero.mp4" type="video/mp4" />
+          <source src="/assets/claripik/hero.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
