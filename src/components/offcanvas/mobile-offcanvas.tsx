@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube ,Whatsapp } from "../svg";
+import { Behance, CloseTwo, Dribble, InstagramTwo, Youtube ,Whatsapp, Linkdin } from "../svg";
 
 // images
 import logo from "@/assets/img/logo/claripik.png";
@@ -82,13 +82,13 @@ export default function MobileOffcanvas({openOffcanvas,setOpenOffcanvas}: IProps
               <h3 className="tp-offcanvas-title sm">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#"><InstagramTwo /></a>
+                  <a href="https://www.instagram.com/claripik.international/"><InstagramTwo /></a>
                 </li>
                 <li>
-                  <a href="#"><Dribble /></a>
+                  <a href="#"><Whatsapp /></a>
                 </li>
                 <li>
-                  <a href="#"> <Whatsapp /></a>
+                  <a href="https://www.linkedin.com/company/claripik-international/"><Linkdin /></a>
                 </li>
                 <li>
                   <a href="#"><Youtube /></a>
