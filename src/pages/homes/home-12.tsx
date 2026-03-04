@@ -6,6 +6,7 @@ import HeaderEight from "@/layouts/headers/header-eight";
 import { cursorAnimation } from "@/plugins";
 import PortfolioSliderHomeTwelve from "@/components/portfolio/slider/portfolio-slider-home-twelve";
 import ThemeSetting from "@/components/theme-setting";
+import EcomPortfolioSlider from "@/components/mine/portfolio/ecoomerce";
 
 const HomeTwelveMain = () => {
   useEffect(() => {
@@ -39,7 +40,9 @@ const HomeTwelveMain = () => {
 
       <main>
         {/* portfolio slider start */}
-        <PortfolioSliderHomeTwelve />
+        {/* <PortfolioSliderHomeTwelve />
+         */}
+         <EcomPortfolioSlider/>
         {/* portfolio slider end */}
       </main>
 

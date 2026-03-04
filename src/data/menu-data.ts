@@ -198,11 +198,11 @@ const menu_data:IMenuDT[] = [
     title: 'Portfolio',
     link: '/portfolio',
     dropdown_menus: [
-      { title: 'Graphic Design', link: '/' },
-      { title: 'Video Editing', link: '/' },
-      { title: 'Vector Graphics', link: '/' },
-      { title: 'Signange Design', link: '/' },
-      { title: 'Web Designing', link: '/' },
+      { title: 'Fashion Industry', link: '/portfolio/fashion' },
+      { title: 'Food Industry', link: '/portfolio/food' },
+      { title: 'Fitness Industry', link: '/portfolio/fitness' },
+      { title: 'Ecommerce Industry', link: '/portfolio/ecommerce' },
+      // { title: 'Web Designing', link: '/portfolio/web-designing' },
       
     ],
     // portfolio_mega_menus: {

@@ -14,9 +14,11 @@ import { revelAnimationOne } from "@/utils/title-animation";
 import ThemeSetting from "@/components/theme-setting";
 import HeaderOne from "@/layouts/headers/header-one";
 import FooterOne from "@/layouts/footers/footer-one";
+import EcomPortfolioSlider from "@/components/mine/portfolio/ecoomerce";
+import FitnessPortfolioSlider from "@/components/mine/portfolio/fitness";
 
 
-const HomeEightMain = () => {
+const PortfolioFitness = () => {
   useScrollSmooth();
   useEffect(() => {
     document.body.classList.add("tp-magic-cursor");
@@ -59,7 +61,7 @@ const HomeEightMain = () => {
           <main>
 
             {/* perspective area start */}
-            <PerspectivePortfolioSlider />
+            <FitnessPortfolioSlider/>
             {/* perspective area end */}
  <FooterOne/>
           </main>
@@ -74,4 +76,4 @@ const HomeEightMain = () => {
   );
 };
 
-export default HomeEightMain;
+export default PortfolioFitness;
