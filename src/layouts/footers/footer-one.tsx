@@ -78,13 +78,13 @@ export default function FooterOne() {
                             <a href="#">Facebook</a>
                           </li>
                           <li className="tp_fade_bottom">
-                            <a href="#">Instagram</a>
+                            <a href="https://www.instagram.com/claripik.international/">Instagram</a>
                           </li>
                           <li className="tp_fade_bottom">
                             <a href="#">Whatsapp</a>
                           </li>
                           <li className="tp_fade_bottom">
-                            <a href="#">Linkedin</a>
+                            <a href="https://www.linkedin.com/company/claripik-international/">Linkedin</a>
                           </li>
                         </ul>
                       </div>
